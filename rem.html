@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title> creating a reminder </title>
+		  <link rel="stylesheet" href="carpobootstrap/bootstrap/css/bootstrap.css">
+			<script type = "text/javascript" src = "jdcarpobootstrap/js/jquery-slim.min.js"></script>
+			<script type = "text/javascript" src = "jdcarpobootstrap/js/popper.min.js"></script>
+			<script type = "text/javascript" src = "jdcarpobootstrap/js/bootstrap.js"></script>		
+                        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+                        <link rel="stylesheet" href="style/style.css" type="text/css">			
+                        
+		  
+     </head>
+     <body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				     <span class="navbar-toggler-icon"></span>
+				   </button>
+
+				   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				      <img src="img/3.png" width="100" height="60" alt="task reminder">
+				       <li class="nav-item active">
+				         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				       </li>
+				   
+				     </ul>
+				     <form class="form-inline my-2 my-lg-0">
+				       <input class="form-control mr-sm-2" type="search" placeholder="Search">
+				       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				     </form>
+				   </div>
+             </nav>
+         
+	
+          
+	   <hr class="my-4">
+           <br><center><h1>TASK REMINDER</h1>
+	   <hr class="my-4">  
+        
+
+	  <tr>
+       <br><br><form>  
+        <div class="row">
+              <div class="col">
+	     
+	     <b> Date:</b><input id="borrowed" type="date"><br><br>
+	      </div>
+              <div class="col">
+	      
+         <b>Task/Activity Title:</b><input type=text name=name><br><br>
+	      </div>
+	      <div class="col">
+		  <tr>
+		  	  <input type="button"  class="btn btn-secondary btn-lg active"   role="button"value="save" onclick="SaveItem()">   
+		  </tr>
+	      </div>
+         </div> 
+         
+         <hr class="my-4">
+         
+         <br><br>
+         <div class="form-group">
+		    <b>Activity</b><br><textarea name="data" cols="150" rows="5" id="data"></textarea>
+	  </tr>
+         
+        </div>
+  </div>
+</form>
+
+ 
+    </body>
+</html>
